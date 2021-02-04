@@ -13,7 +13,7 @@ COPY eicar ~/eicar.txt
 
 #Install vulnerable os level packages
 #Hashing out as it didn't install it originally....:  CMD apt-get install nmap nc
-RUN apt-get update \
+RUN apt-get update && apt-get install -y  \
         && apt-get install -y nmap \
         && apt-get install -y netcat
 
