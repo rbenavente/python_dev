@@ -19,4 +19,4 @@ EXPOSE 22
 EXPOSE 80
 
 
-CMD ["/bin/sh" "-c" "python ./index.py"]
+#CMD ["/bin/sh" "-c" "python ./index.py"]
