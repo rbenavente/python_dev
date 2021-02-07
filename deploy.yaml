@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
       - image: harbor-master-test.rbenavente.demo.twistlock.com/library/pythondev:latest
-        name: evilpetclinic
+        name: pythondev
         resources: {}
       imagePullSecrets:
       - name: regcred
