@@ -43,4 +43,11 @@ node {
             app.push("latest")
         }
     }
+   
+
+    stage('Deploy pythondev') {
+//      sh 'kubectl delete --ignore-not-found=true -f files/deploy.yml -n evil'
+        sh 'kubectl apply -f files/deploy.yml -n dvwa'
+        sh 'sleep 10'
+    }
 }
