@@ -15,7 +15,7 @@ spec:
     metadata:
       creationTimestamp: null
       labels:
-        app: evilpetclinic
+        app: pythondev
     spec:
       containers:
       - image: harbor-master-test.rbenavente.demo.twistlock.com/library/pythondev:latest
