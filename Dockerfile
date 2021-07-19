@@ -1,4 +1,5 @@
-FROM harbor-master-test.rbenavente.demo.twistlock.com/library/hellopython:latest
+/FROM harbor-master-test.rbenavente.demo.twistlock.com/library/hellopython:latest
+FROM rbenavente/hellopython:latest
 
 USER root
 
