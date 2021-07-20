@@ -18,7 +18,7 @@ spec:
         app: pythondev
     spec:
       containers:
-      - image: harbor-master-test.rbenavente.demo.twistlock.com/library/pythondev:latest
+      - image: rbenavente/pythondev:latest
         name: pythondev
         resources: {}
       imagePullSecrets:
