@@ -46,9 +46,9 @@ node {
     }
    
 
-    stage('Deploy pythondev') {
+//    stage('Deploy pythondev') {
 //      sh 'kubectl delete --ignore-not-found=true -f files/deploy.yml -n evil'
-        sh 'kubectl apply -f deploy.yaml -n dvwa'
-        sh 'sleep 10'
-    }
+//        sh 'kubectl apply -f deploy.yaml -n dvwa'
+//        sh 'sleep 10'
+//   }
 }
